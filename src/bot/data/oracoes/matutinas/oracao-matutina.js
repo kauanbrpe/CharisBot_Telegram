@@ -4,8 +4,8 @@ const fs = require('fs');
 const loadPrayer = (path) => JSON.parse(fs.readFileSync(path, 'utf-8'));
 
 // Organizando e renomeando as constantes para um nome mais descritivo
-const oracoesNossaSenhora = {
-    consagracaoDoDia: loadPrayer('src/bot/data/oracoes/nossasenhora/consagracao-do-dia.json'),
+const oracoesMatutinas = {
+    consagracaoDoDia: loadPrayer('src/bot/data/oracoes/matutinas/consagracao-do-dia.json'),
 };
 
-module.exports = oracoesNossaSenhora;
+module.exports = oracoesMatutinas;

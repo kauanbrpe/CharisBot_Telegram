@@ -1,4 +1,55 @@
-// Importando os módulos necessários
+const startAction = require('../bot/actions/start');
+const sobreMimAction = require('../bot/actions/sobreMim');
+const oracoesAction = require('../bot/actions/oracoes');
+const sendWithBackButton = require('./utils/utils');
+
+// Função para carregar todos os comandos e ações
+const loadCommands = (bot) => {
+    // Comandos de interação
+    bot.start(startAction);
+    bot.action('SOBRE_MIM', sobreMimAction);
+    bot.action('VOLTAR', sendWithBackButton);
+    bot.action('ORACAO_EUCARISTICAS', oracoesAction.handleOracaoEucaristicas);
+    bot.action('MENU_NOSSASENHORA', oracoesAction.handleMenuNossaSenhora);
+    bot.action('MENU_SAOJOSE', oracoesAction.handleMenuSaoJose);
+};
+
+// Exporte a função para ser usada em outros arquivos
+module.exports = loadCommands;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*// Importando os módulos necessários
 const { Markup } = require('telegraf');
 const oracaoComunhao = require('./data/oracoes/comunhao/oracao-comunhao');
 const oracoesSaoJose = require('./data/oracoes/saojose/oracao-saojose');
@@ -140,3 +191,4 @@ module.exports = (bot) => {
     bot.action('SUB_TUUM_PRAESIDIUM', handleSubTuumPraesidium);
     bot.action('ORACAO_JOSEFINA', handleOracaoJosefina);
 };
+*/

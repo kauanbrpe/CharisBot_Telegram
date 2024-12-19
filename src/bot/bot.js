@@ -1,6 +1,6 @@
 const { Telegraf } = require('telegraf');
 const { BOT_TOKEN } = process.env; // Carrega o token do arquivo .env
-const loadCommands = require('./commands');
+const loadCommands = require('./actions');
 
 // Cria o bot
 const bot = new Telegraf(BOT_TOKEN);
