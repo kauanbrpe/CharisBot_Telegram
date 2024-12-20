@@ -8,7 +8,9 @@ const handleMenuSaoJose = (ctx) => {
         [
             [Markup.button.callback('Ladainha de São José', 'LADAINHA')],
             [Markup.button.callback('Oração do Papa para São José', 'ORACAO_PAPA_TO_SJOSE')],
-            [Markup.button.callback('Oração de São José', 'ORACAO_JOSEFINA')]
+            [Markup.button.callback('Oração de São José', 'ORACAO_JOSEFINA')],
+            [Markup.button.callback('Sete Domingos em Honra a São José', 'SETE_DOMINGOS')],
+
         ]
     );
 };

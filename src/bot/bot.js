@@ -25,5 +25,30 @@ function sendAutomaticMessage() {
 // Envia a mensagem automaticamente a cada 1 hora (3600000 ms)
 setInterval(sendAutomaticMessage, 3600000);
 
-// Exporte o bot para outros arquivos, se necessário
+/*bot.command('limpar', async (ctx) => {
+    const chatId = ctx.chat.id; // ID do chat
+    const messageId = ctx.message.message_id; // ID da mensagem do comando
+
+    // Apaga a mensagem do comando
+    await ctx.deleteMessage(messageId);
+
+    // Mensagem de confirmação temporária
+    const confirmMessage = await ctx.reply("Limpando mensagens...");
+    setTimeout(() => {
+        ctx.deleteMessage(confirmMessage.message_id);
+    }, 3000);
+
+    // Obtém as mensagens do chat e tenta apagar
+    try {
+        const messagesToDelete = 50; // Quantidade de mensagens a apagar
+        for (let i = 0; i < messagesToDelete; i++) {
+            await ctx.telegram.deleteMessage(chatId, messageId - i);
+        }
+    } catch (error) {
+        console.error("Erro ao apagar mensagens:", error.message);
+        await ctx.reply("Não foi possível apagar todas as mensagens. Verifique as permissões do bot.");
+    }
+});
+*/
+
 module.exports = bot;

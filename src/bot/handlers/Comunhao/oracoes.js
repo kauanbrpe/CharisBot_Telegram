@@ -11,9 +11,30 @@ const handleAnimaChristi = (ctx) => {
     );
 };
 
+const handleEisMeAqui = (ctx) => {
+    sendWithBackButton(
+        ctx,
+        `${oracaoComunhao.eismeAqui.titulo_pt}\n\n${oracaoComunhao.eismeAqui.conteudo_pt}\n`+
+
+        []
+
+    )
+}
+
+const handleSaoTomasComunhao = (ctx) => {
+
+    sendWithBackButton(
+        ctx,
+        `${oracaoComunhao.saoTomasComunhao.titulo_pt}\n\n${oracaoComunhao.saoTomasComunhao.conteudo_pt}\n`
+        +
+        []
+    )
+}
 
 
 module.exports = {
     handleAnimaChristi,
+    handleEisMeAqui,
+    handleSaoTomasComunhao,
 };
 
