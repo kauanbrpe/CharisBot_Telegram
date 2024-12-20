@@ -4,6 +4,7 @@ const handleVoltar = (ctx) => {
     ctx.reply(
         `Escolha uma das opções abaixo para começar:\n`,
         Markup.inlineKeyboard([
+            [Markup.button.callback('Liturgia do Dia', 'LITURGIA_DIA')],
             [Markup.button.callback('Orações Matutinas', 'ORACAO_DIA')],
             [Markup.button.callback('Orações Marianas', 'MENU_NOSSASENHORA')],
             [Markup.button.callback('Orações Josefinas', 'MENU_SAOJOSE')],

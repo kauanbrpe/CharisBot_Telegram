@@ -9,7 +9,18 @@ const handleConsagracaoDia = (ctx) => {
     );
 };
 
+
+const handleOFerecimentoDia = (ctx) => {
+    const oferecimento = oracoesMatutinas.oferecimentoDoDia
+    sendWithBackButton(
+        ctx,
+        `${oferecimento.titulo_pt}\n\n${oferecimento.conteudo_pt}\n`,
+        []
+    );
+};
+
 module.exports = {
     handleConsagracaoDia,
+    handleOFerecimentoDia,
 };
 

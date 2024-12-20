@@ -1,0 +1,45 @@
+{
+    "MistériosDoTerço": {
+      "Gozosos": {
+        "dia": ["Segunda-feira", "Sábado"],
+        "conteudo": [
+          "1º Mistério: A Anunciação do Anjo e a Encarnação do Verbo no seio Puríssimo de Maria",
+          "2º Mistério: A visitação de Maria a sua prima Santa Isabel",
+          "3º Mistério: Nascimento do Menino Jesus, na gruta fria em Belém",
+          "4º Mistério: A apresentação do Menino Jesus no templo, e a purificação de Maria",
+          "5º Mistério: A perda e o encontro do Menino Jesus no templo discutindo com os doutores da Lei"
+        ]
+      },
+      "Luminosos": {
+        "dia": ["Quinta-feira"],
+        "conteudo": [
+          "1º Mistério: Batismo de Nosso Senhor Jesus Cristo no rio Jordão",
+          "2º Mistério: Primeiro milagre de Nosso Senhor Jesus Cristo transformando a água em vinho nas bodas de Caaná",
+          "3º Mistério: Anunciação do Reino de Deus e o convite à conversão",
+          "4º Mistério: A transfiguração de Nosso Senhor no Monte Thabor",
+          "5º Mistério: A Instituição da Eucaristia na Última Ceia"
+        ]
+      },
+      "Dolorosos": {
+        "dia": ["Terça-feira", "Sexta-feira"],
+        "conteudo": [
+          "1º Mistério: A oração e agonia no Horto das Oliveiras",
+          "2º Mistério: Flagelação de Nosso Senhor Jesus Cristo",
+          "3º Mistério: A coroação de espinhos de Nosso Senhor Jesus Cristo",
+          "4º Mistério: Nosso Senhor carregando a Cruz nas costas à caminho do Calvário",
+          "5º Mistério: A Crucifixão e morte de Nosso Senhor Jesus Cristo"
+        ]
+      },
+      "Gloriosos": {
+        "dia": ["Quarta-feira", "Domingo"],
+        "conteudo": [
+          "1º Mistério: A Ressurreição de Nosso Senhor Jesus Cristo",
+          "2º Mistério: A Ascenção de Nosso Senhor Jesus Cristo",
+          "3º Mistério: A descida do Espírito Santo a Nossa Senhora e os Apóstolos reunidos no Santo Cenáculo",
+          "4º Mistério: A Assunção de Nossa Senhora aos Céus de corpo e alma",
+          "5º Mistério: A Coroação de Nossa Senhora como Rainha do Céu e da Terra dos Anjos e dos Homens"
+        ]
+      }
+    }
+  }
+  
