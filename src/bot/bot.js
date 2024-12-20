@@ -7,7 +7,7 @@ const bot = new Telegraf(BOT_TOKEN);
 
 // Carrega os comandos e eventos do bot
 loadCommands(bot);
-
+/*
 // Função para enviar mensagem automática para o canal
 function sendAutomaticMessage() {
     const CHANNEL_ID = -1002384781900;  // ou use o chat_id do canal privado
@@ -24,7 +24,7 @@ function sendAutomaticMessage() {
 
 // Envia a mensagem automaticamente a cada 1 hora (3600000 ms)
 setInterval(sendAutomaticMessage, 3600000);
-
+*/
 /*bot.command('limpar', async (ctx) => {
     const chatId = ctx.chat.id; // ID do chat
     const messageId = ctx.message.message_id; // ID da mensagem do comando
