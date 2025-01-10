@@ -5,7 +5,7 @@ const { handleMenuSaoJose } = require('./handlers/SaoJose/menu');
 const { handleLadainhaSaoJose, handleOracaoJosefina, handleOracaoPapaSaoJose, handleSeteDomingos } = require('./handlers/SaoJose/oracoes');
 
 const { handleMenuOracaoComunhao } = require('./handlers/Comunhao/menu');
-const { handleAnimaChristi, handleEisMeAqui, handleSaoTomasComunhao } = require('./handlers/Comunhao/oracoes');
+const { handleAnimaChristi, handleEisMeAqui, handleSaoTomasComunhao, handleOracaoDeAcaoGracas } = require('./handlers/Comunhao/oracoes');
 
 const { handleMenuOracaoMatutina } = require('./handlers/Matutinas/menu');
 const { handleConsagracaoDia, handleOFerecimentoDia } = require('./handlers/Matutinas/oracoes');
@@ -51,5 +51,7 @@ module.exports = (bot) => {
     bot.action('MENU_ORACAO_COMUNHAO', handleMenuOracaoComunhao);
     bot.action('ANIMA_CHRISTI', handleAnimaChristi);
     bot.action('EIS_ME_AQUI', handleEisMeAqui);
-    bot.action('SAO_TOMAS_COMUNHAO', handleSaoTomasComunhao)
+    bot.action('SAO_TOMAS_COMUNHAO', handleSaoTomasComunhao);
+    bot.action('ORACAO_DE_ACAO_DE_GRAÇAS',handleOracaoDeAcaoGracas)
+    
 };
