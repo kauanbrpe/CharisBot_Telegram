@@ -31,10 +31,21 @@ const handleSaoTomasComunhao = (ctx) => {
     )
 }
 
+const handleOracaoDeAcaoGracas = (ctx) => {
+
+    sendWithBackButton(
+        ctx,
+        `${oracaoComunhao.oracaoDeAcaoGracas.titulo_pt}\n\n${oracaoComunhao.oracaoDeAcaoGracas.conteudo_pt}\n`
+        +
+        []
+    )
+}
+
 
 module.exports = {
     handleAnimaChristi,
     handleEisMeAqui,
-    handleSaoTomasComunhao,
+    handleSaoTomasComunhao, 
+    handleOracaoDeAcaoGracas
 };
 

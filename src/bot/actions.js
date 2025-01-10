@@ -52,6 +52,6 @@ module.exports = (bot) => {
     bot.action('ANIMA_CHRISTI', handleAnimaChristi);
     bot.action('EIS_ME_AQUI', handleEisMeAqui);
     bot.action('SAO_TOMAS_COMUNHAO', handleSaoTomasComunhao);
-    bot.action('ORACAO_DE_ACAO_DE_GRAÇAS',handleOracaoDeAcaoGracas)
+    bot.action('ORACAO_DE_ACAO_DE_GRACAS', handleOracaoDeAcaoGracas)
     
 };
